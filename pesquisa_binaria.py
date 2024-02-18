@@ -1,7 +1,9 @@
+# Bibliotecas
 import tkinter as tk
 from tkinter.font import Font
 from random import choice
 
+# GUI
 janela = tk.Tk()
 janela.title('Pesquisa Binária')
 janela.geometry('270x250')
