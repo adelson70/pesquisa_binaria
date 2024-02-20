@@ -6,9 +6,11 @@ from tkinter.font import Font
 numeros = [n for n in range(0,100+1)]
 tentativas = 0
 
+# Função para atualizar a label
 def atualizar_label(label, info):
     label.config(text=info)
 
+# Função para fazer a pesquisa binaria
 def pesquisa_binaria(maior=False, menor=False, acertou=False):
     global numeros
     global tentativas
